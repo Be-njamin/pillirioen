@@ -1,0 +1,38 @@
+// Symbol Icons
+// https://code.visualstudio.com/api/references/theme-color#symbol-icons-colors
+
+module.exports = (theme) => ({
+  'symbolIcon.arrayForeground': theme.foreground,
+  'symbolIcon.booleanForeground': theme.foreground,
+  'symbolIcon.classForeground': theme.foreground,
+  'symbolIcon.colorForeground': theme.foreground,
+  'symbolIcon.constantForeground': theme.foreground,
+  'symbolIcon.constructorForeground': theme.foreground,
+  'symbolIcon.enumeratorForeground': theme.foreground,
+  'symbolIcon.enumeratorMemberForeground': theme.foreground,
+  'symbolIcon.eventForeground': theme.foreground,
+  'symbolIcon.fieldForeground': theme.foreground,
+  'symbolIcon.fileForeground': theme.foreground,
+  'symbolIcon.folderForeground': theme.foreground,
+  'symbolIcon.functionForeground': theme.foreground,
+  'symbolIcon.interfaceForeground': theme.foreground,
+  'symbolIcon.keyForeground': theme.foreground,
+  'symbolIcon.keywordForeground': theme.foreground,
+  'symbolIcon.methodForeground': theme.foreground,
+  'symbolIcon.moduleForeground': theme.foreground,
+  'symbolIcon.namespaceForeground': theme.foreground,
+  'symbolIcon.nullForeground': theme.foreground,
+  'symbolIcon.numberForeground': theme.foreground,
+  'symbolIcon.objectForeground': theme.foreground,
+  'symbolIcon.operatorForeground': theme.foreground,
+  'symbolIcon.packageForeground': theme.foreground,
+  'symbolIcon.propertyForeground': theme.foreground,
+  'symbolIcon.referenceForeground': theme.foreground,
+  'symbolIcon.snippetForeground': theme.foreground,
+  'symbolIcon.stringForeground': theme.foreground,
+  'symbolIcon.structForeground': theme.foreground,
+  'symbolIcon.textForeground': theme.foreground,
+  'symbolIcon.typeParameterForeground': theme.foreground,
+  'symbolIcon.unitForeground': theme.foreground,
+  'symbolIcon.variableForeground': theme.foreground
+});
