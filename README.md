@@ -1,4 +1,4 @@
-# <img src="images/icon.png" alt="Icon" width="24" height="24" /> illirioen
+# <img src="images/icon.png" alt="Icon" width="32" height="32" /> illirioen
 
 [![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/be-njamin.pillirioen.svg?style=flat)](https://marketplace.visualstudio.com/items?itemName=Be-njamin.pillirioen)
 [![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/be-njamin.pillirioen.svg?style=flat)](https://marketplace.visualstudio.com/items?itemName=Be-njamin.pillirioen)
