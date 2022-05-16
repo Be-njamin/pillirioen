@@ -64,9 +64,7 @@ module.exports = (tokenColorPalette, withItalics) => {
     },
     {
       settings: { foreground: tokenColorPalette.color5 },
-      scope: [
-        'source.json meta.structure.dictionary.json support.type.property-name.json'
-      ]
+      scope: ['source.json meta.structure.dictionary.json support.type.property-name.json']
     },
     {
       settings: { foreground: shadeColor(tokenColorPalette.color5, 10) },

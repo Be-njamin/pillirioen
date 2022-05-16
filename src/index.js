@@ -1,48 +1,47 @@
 const fs = require('fs');
-const colors = require('./colors');
-const tokenColors = require('./tokenColors');
+const colors = require('./theme/colors');
+const tokenColors = require('./theme/token-colors');
+
+const defaultTokenColors = {
+  color1: '#99FF85',
+  color2: '#FF7070',
+  color3: '#FF99FF',
+  color4: '#70A7FF',
+  color5: '#9785FF',
+  color6: '#FBFF85',
+  color7: '#FFBF70',
+  color8: '#97AFC3',
+  color9: '#75818B',
+  color10: '#646A6F'
+};
 
 const defaultColors = {
-  colors: {
-    transparent: '#FFFFFF00',
-    background: '#21262D',
-    foreground: '#97AFC3',
-    highlight: '#983B6E',
-    warning: '#FFD33D',
-    untracked: '#9E6A03',
-    hint: '#28A745',
-    added: '#238636',
-    info: '#0366d6',
-    modified: '#1F6FEB',
-    error: '#DA3633',
-    deleted: '#D73A49'
-  },
-  token: {
-    color1: '#99FF85',
-    color2: '#FF7070',
-    color3: '#FF99FF',
-    color4: '#70A7FF',
-    color5: '#9785FF',
-    color6: '#FBFF85',
-    color7: '#FFBF70',
-    color8: '#97AFC3',
-    color9: '#75818B',
-    color10: '#646A6F'
-  }
+  transparent: '#FFFFFF00',
+  background: '#21262D',
+  foreground: '#9199A1',
+  highlight: '#FF206E',
+  warning: '#EAC435',
+  untracked: '#EAC435',
+  hint: '#7DDE92',
+  added: '#7DDE92',
+  info: '#7F7EFF',
+  modified: '#7F7EFF',
+  error: '#B80C09',
+  deleted: '#B80C09'
 };
 
 const themes = [
   {
     name: 'Pillirioen (Italics)',
-    fileName: './themes/pillirioen-i.json',
-    colors: colors(defaultColors.colors),
-    tokenColors: tokenColors(defaultColors.token, true)
+    fileName: './themes/pillirioen-italics.json',
+    colors: colors(defaultColors),
+    tokenColors: tokenColors(defaultTokenColors, true)
   },
   {
     name: 'Pillirioen',
     fileName: './themes/pillirioen.json',
-    colors: colors(defaultColors.colors),
-    tokenColors: tokenColors(defaultColors.token)
+    colors: colors(defaultColors),
+    tokenColors: tokenColors(defaultTokenColors)
   }
 ];
 
